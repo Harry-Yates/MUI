@@ -1,7 +1,20 @@
-import { Button, Typography } from "@mui/material";
+import { Button, Typography, styled } from "@mui/material";
 import { Add, Settings, SportsSoccer, Delete } from "@mui/icons-material";
 
 function App() {
+
+const StyledButton = styled(Button)({
+  background: 'linear-gradient(45deg, #FE6B8B 30%, #FF8E53 90%)',
+  border: 0,
+  borderRadius: 10,
+  boxShadow: '0 3px 5px 2px rgba(255, 105, 135, .3)',
+  color: 'white',
+  height: 48,
+  padding: '0 30px',
+  marginLeft: "2rem",
+});
+
+
   return (
     <div className="App">
     <Button startIcon={<SportsSoccer />}  variant="text" size="small">Contained</Button>
@@ -39,6 +52,9 @@ It uses h1 style but it's a p tag
   }}>
   Custom Button
 </Button>
+
+<StyledButton>Styled Button</StyledButton>
+<StyledButton>Another Styled Button</StyledButton>
     
     </div>
   )
