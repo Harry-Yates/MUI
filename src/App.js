@@ -14,11 +14,34 @@ function App() {
 }
 <Typography variant="h1" component="p">
 It uses h1 style but it's a p tag
-</Typography>;
+</Typography>
 
+<Button variant="contained" sx={{
+  backgroundColor:"#000027",
+  color:"#fff",
+  margin: "2rem",
+  fontFamily: "Helvetica",
+  fontSize: "1rem",
+  fontWeight: "bold",
+  borderRadius: "5px",
+  "&:hover": {
+    backgroundColor: "#000555",
+    color: "#fff",
+  },
+  "&:active": {
+    backgroundColor: "#000555",
+    color: "#fff",
+  },
+  "&:focus": {
+    backgroundColor: "#000555",
+    color: "#fff",
+  },
+  }}>
+  Custom Button
+</Button>
     
     </div>
-  );
+  )
 }
 
 export default App;
