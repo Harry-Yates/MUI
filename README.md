@@ -1,4 +1,4 @@
-# MUI Refresher 
+# MUI Refresher
 
 Timestamp: 14:24
 
@@ -13,3 +13,7 @@ Timestamp: 14:24
 [Palette (Theming)](https://mui.com/material-ui/customization/palette/)
 
 [Layout](https://mui.com/material-ui/react-grid/)
+
+[Badge](https://mui.com/material-ui/react-badge/)
+
+[Avater](https://mui.com/material-ui/react-avatar/)
