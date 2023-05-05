@@ -1,4 +1,4 @@
-import { Mail, Notifications, Pets, SportsSoccer } from "@mui/icons-material";
+import { Mail, Notifications, SportsSoccer } from "@mui/icons-material";
 import {
   AppBar,
   Avatar,

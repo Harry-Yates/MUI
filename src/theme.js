@@ -1,20 +1,16 @@
-import { createTheme } from '@mui/material/styles';
+import { createTheme } from "@mui/material";
 
 export const theme = createTheme({
   palette: {
     primary: {
-      main: "#000500",
-      light: "skyblue"
+      main: "#1760a5",
+      light: "skyblue",
     },
     secondary: {
-      main: '#15c630',
-      light: "lightgreen"
+      main: "#15c630",
     },
     otherColor: {
-      main: '#3240EA',
-      light: "lightgreen",
-      color: "white"
+      main: "#999",
     },
   },
 });
-
